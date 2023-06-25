@@ -9,7 +9,7 @@ private:
     std::string food;
 
 public:
-    Animal(const std::string& animalName, int animalAge, const std::string& animalFood)
+    Animal(const std::string& animalName, int animalAge, std::string& animalFood)
         : name(animalName), age(animalAge), food(animalFood) {}
 
     std::string getName() const {
